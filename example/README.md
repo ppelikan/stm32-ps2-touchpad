@@ -14,3 +14,4 @@ For OLED driving a following library is used: github.com/afiskon/stm32-ssd1306.
 
 Touchpad used in the example is Synaptics 920-001014-01 RevA.
 
+![](https://github.com/ppelikan/stm32-ps2-touchpad/blob/main/example/img/touchpad_img.jpg)
