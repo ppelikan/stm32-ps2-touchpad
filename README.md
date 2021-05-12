@@ -6,6 +6,8 @@ This allows us to connect the data and clock lines directly to the STM32 microco
 
 Additional feature, this driver provides, is the possibility to read additional parameters from the Synaptics® touchapad, for example: absolute finger position and touch pressure etc. This is not possible with other touchpads like ALPS for example.
 
+https://user-images.githubusercontent.com/6893111/118008291-35b77000-b34d-11eb-8477-67572455df17.mp4
+
 ## Implementation
 
 The PS/2 driver uses STM32 HAL CubeMX lib. Please edit the `ps2.h` file in order to adapt the driver to your needs. Communication is performed by utilizing the SPI (IRQ slave Rx only mode) as well as GPIO (polling method). No external pullups needed.
